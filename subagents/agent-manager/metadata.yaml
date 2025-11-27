@@ -1,0 +1,21 @@
+name: agent-manager
+version: 1.0.0
+type: subagent
+created: 2025-11-27
+updated: 2025-11-27
+
+tags:
+  - meta
+  - management
+  - versioning
+  - feedback
+  - git
+
+projects:
+  - all
+
+stats:
+  feedback_count: 0
+  pending_feedback: 0
+  last_feedback: null
+  improvement_count: 0
