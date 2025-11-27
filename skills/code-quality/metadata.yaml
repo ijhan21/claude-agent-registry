@@ -1,0 +1,38 @@
+name: code-quality
+version: 1.0.0
+category: development
+
+tags:
+  - linting
+  - formatting
+  - code-quality
+  - eslint
+  - prettier
+  - ruff
+  - mypy
+  - pre-commit
+
+triggers:
+  - ESLint 설정
+  - Prettier 설정
+  - Ruff 설정
+  - mypy 설정
+  - 린터 설정
+  - pre-commit
+  - 코드 포맷
+  - 타입 검사
+
+references:
+  - python-ruff.md
+  - python-mypy.md
+  - javascript-eslint.md
+  - javascript-prettier.md
+  - typescript-config.md
+  - pre-commit.md
+  - editor-integration.md
+  - ci-integration.md
+
+related_skills:
+  - fastapi-standard
+  - react-standard
+  - drf-standard
