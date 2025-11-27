@@ -1,0 +1,17 @@
+name: fastapi-standard
+version: 1.0.0
+type: skill
+created: 2025-11-27
+updated: 2025-11-27
+tags:
+  - python
+  - fastapi
+  - backend
+  - api
+  - standard
+projects: []
+stats:
+  feedback_count: 0
+  pending_feedback: 0
+  last_feedback: null
+  improvement_count: 0
