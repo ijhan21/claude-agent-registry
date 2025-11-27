@@ -1,0 +1,36 @@
+name: github-actions
+version: 1.0.0
+category: devops
+
+tags:
+  - github-actions
+  - ci-cd
+  - automation
+  - workflow
+  - devops
+
+triggers:
+  - GitHub Actions
+  - 워크플로우 설정
+  - CI 파이프라인
+  - CD 배포
+  - Actions 문법
+  - matrix 전략
+  - reusable workflow
+
+references:
+  - triggers.md
+  - jobs-steps.md
+  - matrix.md
+  - caching.md
+  - secrets.md
+  - environments.md
+  - reusable.md
+  - python-ci.md
+  - node-ci.md
+  - docker-ci.md
+
+related_skills:
+  - docker-optimization
+  - compose-env
+  - code-quality
