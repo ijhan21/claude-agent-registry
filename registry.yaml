@@ -4,7 +4,7 @@
 version: 1.0.0
 updated: 2025-11-27
 
-# 등록된 Skills
+# 등록된 Skills (7/7 완료)
 skills:
   - name: fastapi-standard
     path: skills/fastapi-standard
@@ -26,7 +26,22 @@ skills:
     version: 1.0.0
     status: active
 
-# 등록된 Sub-agents
+  - name: compose-env
+    path: skills/compose-env
+    version: 1.0.0
+    status: active
+
+  - name: code-quality
+    path: skills/code-quality
+    version: 1.0.0
+    status: active
+
+  - name: github-actions
+    path: skills/github-actions
+    version: 1.0.0
+    status: active
+
+# 등록된 Sub-agents (4/4 완료)
 subagents:
   - name: agent-manager
     path: subagents/agent-manager
