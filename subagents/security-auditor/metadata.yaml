@@ -1,0 +1,37 @@
+name: security-auditor
+version: 1.0.0
+type: subagent
+created: 2025-11-27
+updated: 2025-11-27
+
+tags:
+  - security
+  - audit
+  - vulnerability
+  - owasp
+  - authentication
+  - authorization
+
+triggers:
+  - 보안 검토
+  - 보안 감사
+  - 취약점 분석
+  - 의존성 보안
+  - 인증 검토
+  - 권한 검토
+
+tools:
+  - Bash
+  - Read
+  - View
+  - WebSearch
+
+skills:
+  - fastapi-standard
+  - drf-standard
+
+stats:
+  feedback_count: 0
+  pending_feedback: 0
+  last_feedback: null
+  improvement_count: 0
