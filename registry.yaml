@@ -11,6 +11,11 @@ skills:
     version: 1.0.0
     status: active
 
+  - name: react-standard
+    path: skills/react-standard
+    version: 1.0.0
+    status: active
+
 # 등록된 Sub-agents
 subagents:
   - name: agent-manager
