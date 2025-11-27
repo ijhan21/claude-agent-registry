@@ -1,0 +1,45 @@
+name: docker-optimization
+version: 1.0.0
+description: Docker 이미지 최적화 가이드 - 빌드 속도, 이미지 크기, 보안
+author: hans
+created: 2024-01-01
+updated: 2024-01-01
+
+triggers:
+  - Dockerfile 작성
+  - Dockerfile 리뷰
+  - 이미지 크기 최적화
+  - 빌드 속도 개선
+  - Docker 보안 강화
+  - 취약점 스캔
+
+stack:
+  python: FastAPI, DRF
+  nodejs: Next.js
+  base_images: slim (Debian)
+  build: BuildKit
+  scan: Trivy
+  cicd: GitHub Actions
+
+references:
+  - base-images.md
+  - python-dockerfile.md
+  - node-dockerfile.md
+  - buildkit-cache.md
+  - multi-stage.md
+  - secrets.md
+  - tagging.md
+  - dockerignore.md
+  - security-scan.md
+  - healthcheck.md
+  - logging.md
+  - cicd-patterns.md
+
+tags:
+  - docker
+  - dockerfile
+  - optimization
+  - security
+  - buildkit
+  - trivy
+  - cicd
