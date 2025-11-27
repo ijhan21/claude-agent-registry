@@ -33,4 +33,19 @@ subagents:
     version: 1.0.0
     status: active
 
+  - name: design-expert
+    path: subagents/design-expert
+    version: 1.0.0
+    status: active
+
+  - name: security-auditor
+    path: subagents/security-auditor
+    version: 1.0.0
+    status: active
+
+  - name: requirement-guardian
+    path: subagents/requirement-guardian
+    version: 1.0.0
+    status: active
+
 # status 값: active, deprecated, experimental
