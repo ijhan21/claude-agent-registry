@@ -1,0 +1,51 @@
+name: drf-standard
+version: 1.0.0
+description: Django REST Framework API 프로젝트 표준 가이드
+author: hans
+created: 2025-11-27
+updated: 2025-11-27
+
+category: backend
+tags:
+  - django
+  - drf
+  - rest-api
+  - python
+  - jwt
+  - simplejwt
+
+triggers:
+  - DRF 프로젝트 생성
+  - Django REST Framework API 설계
+  - DRF JWT 인증 구현
+  - DRF Serializer 작성
+  - DRF ViewSet 구성
+  - Django API 테스트
+
+stack:
+  framework: Django 5.x
+  api: Django REST Framework 3.15+
+  auth: SimpleJWT 5.3+
+  filter: django-filter 24.x
+  docs: drf-spectacular 0.27+
+  database: PostgreSQL 16+
+  test: pytest-django 4.x
+
+references:
+  - references/project-structure.md
+  - references/settings.md
+  - references/authentication.md
+  - references/serializers.md
+  - references/viewsets.md
+  - references/filtering.md
+  - references/pagination.md
+  - references/exceptions.md
+  - references/testing.md
+  - references/documentation.md
+  - references/security.md
+  - references/performance.md
+
+related_skills:
+  - fastapi-standard
+  - docker-optimization
+  - react-standard
