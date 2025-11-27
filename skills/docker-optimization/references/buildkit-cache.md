@@ -77,14 +77,14 @@ RUN pip install -r requirements.txt
 ### 의존성 분리
 
 ```dockerfile
-# 1. 시스템 의존성 (거의 안 바뀌)
+# 1. 시스템 의존성 (거의 안 바뀜)
 RUN apt-get update && apt-get install -y curl
 
-# 2. 패키지 의존성 (가끔 바뀌)
+# 2. 패키지 의존성 (가끔 바뀜)
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-# 3. 소스 코드 (자주 바뀌)
+# 3. 소스 코드 (자주 바뀜)
 COPY . .
 ```
 
