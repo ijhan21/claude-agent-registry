@@ -5,7 +5,11 @@ version: 1.0.0
 updated: 2025-11-27
 
 # 등록된 Skills
-skills: []
+skills:
+  - name: fastapi-standard
+    path: skills/fastapi-standard
+    version: 1.0.0
+    status: active
 
 # 등록된 Sub-agents
 subagents:
