@@ -21,6 +21,11 @@ skills:
     version: 1.0.0
     status: active
 
+  - name: drf-standard
+    path: skills/drf-standard
+    version: 1.0.0
+    status: active
+
 # 등록된 Sub-agents
 subagents:
   - name: agent-manager
