@@ -16,6 +16,11 @@ skills:
     version: 1.0.0
     status: active
 
+  - name: docker-optimization
+    path: skills/docker-optimization
+    version: 1.0.0
+    status: active
+
 # 등록된 Sub-agents
 subagents:
   - name: agent-manager
