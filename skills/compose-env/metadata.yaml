@@ -1,0 +1,34 @@
+name: compose-env
+version: 1.0.0
+category: devops
+
+tags:
+  - docker
+  - docker-compose
+  - environment
+  - devops
+  - infrastructure
+
+triggers:
+  - docker compose 환경
+  - 환경별 compose
+  - compose override
+  - local staging prod compose
+  - docker-compose 분리
+
+references:
+  - base-compose.md
+  - local-env.md
+  - staging-env.md
+  - prod-env.md
+  - env-variables.md
+  - profiles.md
+  - networks.md
+  - volumes.md
+  - scripts.md
+  - secrets.md
+
+related_skills:
+  - docker-optimization
+  - fastapi-standard
+  - drf-standard
