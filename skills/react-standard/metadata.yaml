@@ -1,0 +1,53 @@
+name: react-standard
+version: 1.0.0
+description: Next.js 14 App Router 기반 React 프로젝트 표준화 가이드
+author: hans
+created: 2024-01-01
+updated: 2024-01-01
+
+triggers:
+  - React 프로젝트 생성
+  - Next.js 프로젝트 초기화
+  - 컴포넌트 작성
+  - 상태관리 구현
+  - API 연동
+  - 폼 구현
+  - 인증 UI 구현
+
+stack:
+  framework: Next.js 14 (App Router)
+  language: TypeScript
+  state_global: Zustand
+  state_server: TanStack Query
+  styling: Tailwind CSS 3
+  ui_components: shadcn/ui
+  form: React Hook Form + Zod
+  api_client: Axios
+  animation: Framer Motion
+  icons: Lucide React
+  seo: next-seo
+  deployment: Docker (Ubuntu)
+
+references:
+  - project-structure.md
+  - state-patterns.md
+  - api-patterns.md
+  - form-patterns.md
+  - auth-patterns.md
+  - error-patterns.md
+  - file-upload-patterns.md
+  - websocket-patterns.md
+  - theme-patterns.md
+  - seo-patterns.md
+  - responsive-patterns.md
+  - docker-patterns.md
+  - code-quality.md
+
+tags:
+  - react
+  - nextjs
+  - typescript
+  - frontend
+  - tailwind
+  - zustand
+  - tanstack-query
