@@ -1,0 +1,34 @@
+name: requirement-guardian
+version: 1.0.0
+type: subagent
+created: 2025-11-27
+updated: 2025-11-27
+
+tags:
+  - requirement
+  - specification
+  - analysis
+  - traceability
+  - documentation
+
+triggers:
+  - 요구사항 검토
+  - 스펙 확인
+  - 누락 분석
+  - 모호성 해소
+  - 구현 추적
+
+tools:
+  - Bash
+  - Read
+  - View
+  - GoogleDrive
+  - Notion
+
+skills: []
+
+stats:
+  feedback_count: 0
+  pending_feedback: 0
+  last_feedback: null
+  improvement_count: 0
